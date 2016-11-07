@@ -1,17 +1,17 @@
 {
-	"mongo": {
-		"db": "Shop",
-		"host": "localhost",
-		"port": 27017,
-		"options": {
-			"safe": true
-		}
-	},
-	"express": {
-		"port": 3003
-	},
-	"app": {
-    	"title": "Shop",
-    	"api": "/api/v1"
+  "mongo": {
+    "db": "Shop",
+    "host": "localhost",
+    "port": 27017,
+    "options": {
+      "safe": true
+    }
+  },
+  "express": {
+    "port": 3003
+  },
+  "app": {
+      "title": "Shop",
+      "api": "/api/v1"
     }
 }
