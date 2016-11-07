@@ -4,12 +4,14 @@
 
 > Install nodejs
 
-> Install mongodb
+> Install mongodb or use a docker container. (mongo and mongo-express images)
+
 
 ## Run project
 
 ```sh
 npm install
+cd scripts && docker-compose up
 npm run add-db (for adding initial data)
 npm start
 ```
