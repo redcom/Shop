@@ -7,7 +7,7 @@
     "start": "node ./webpack.js",
     "build": "./node_modules/.bin/webpack --config ./webpack/webpack.config.js",
     "add-db": "node ./init_db.js",
-    "clean": "rm -r ./src/client/build",
+    "clean": "rm -r ../src/client/build",
     "test-client": "mocha --timeout 10000 --require=\"mocha_settings/client-inject.js\" --compilers js:babel-core/register \"src/client/**/__tests__/**/*.spec.js\"",
     "test-server": "mocha --timeout 10000 --require=\"mocha_settings/server-inject.js\" --compilers js:babel-core/register \"src/server/**/__tests__/**/*.spec.js\"",
     "test": "npm run test-client && npm run test-server"
